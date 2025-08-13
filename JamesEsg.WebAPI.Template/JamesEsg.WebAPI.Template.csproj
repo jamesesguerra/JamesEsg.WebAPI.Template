@@ -4,10 +4,26 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
+  
+  <PropertyGroup>
+    <PackageId>JamesEsg.WebAPI.Template</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>James Esguerra</Authors>
+    <Description>A minimal ASP.NET Core Web API template.</Description>
+    <PackageTags>aspnetcore;webapi;template</PackageTags>
+    <RepositoryUrl>https://github.com/jamesesguerra/JamesEsg.WebAPI.Template</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/jamesesguerra/JamesEsg.WebAPI.Template</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+  
 </Project>
