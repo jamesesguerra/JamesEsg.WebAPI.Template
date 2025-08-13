@@ -1,0 +1,6 @@
+@JamesEsg.WebAPI.Template_HostAddress = http://localhost:5274
+
+GET {{JamesEsg.WebAPI.Template_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
