@@ -21,7 +21,6 @@ A lightweight .NET Web API project template with sensible defaults to speed up A
   - Attaches the environment to every log for easy filtering in Seq.
   - Configuration is supported via `appsettings.{ENVIRONMENT}.json`
 
-Configurable via appsettings.json / appsettings.Development.json.
 ---
 
 ## Getting Started
