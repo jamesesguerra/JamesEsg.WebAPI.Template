@@ -16,6 +16,12 @@ A lightweight .NET Web API project template with sensible defaults to speed up A
   - Uses an `ApiException` model for structured error messages.
   - Easy to extend for logging or custom error codes.
 
+- **Minimal logging with Serilog**
+  - Includes console and Seq sinks by default.
+  - Attaches the environment to every log for easy filtering in Seq.
+  - Configuration is supported via `appsettings.{ENVIRONMENT}.json`
+
+Configurable via appsettings.json / appsettings.Development.json.
 ---
 
 ## Getting Started
